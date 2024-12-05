@@ -1,0 +1,168 @@
+.loanprediction-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.loanprediction-section{
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #1e1d1e;
+    margin-bottom: 10px;
+}
+
+.loanprediction-section h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff006e;
+}
+
+.agileits-top {
+    padding: 3em;
+}
+
+input[type="text"] {
+    font-size: 0.9em;
+    color: #f090b9;
+    font-weight: bold;
+    font-weight: 100;
+    width: 94.5%;
+    display: block;
+    padding: 0.8em;
+    border: solid 2px #f81075;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+input.text.w3lpass {
+    margin: 2em 0;
+}
+
+.text:focus,
+.text:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+}
+
+.text:focus::-webkit-input-placeholder,
+.text:valid::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: .9em;
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    visibility: visible !important;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 100;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+
+.selectField{
+    font-size: 0.9em;
+    color: #f090b9;
+    font-weight: 100;
+    width: 94.5%;
+    display: block;
+    padding: 0.8em;
+    border: solid 2px #f81075;
+    background-color: transparent;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.fieldLabel{
+    font-size: 14px;
+    color: #f81075;
+    padding: 0px 10px;
+}
+
+
+.selectField option{
+    background-color: transparent;
+}
+
+
+input[type="button"] {
+    font-size: 0.9em;
+    color: #fff;
+    background: #ff006e;
+    outline: none;
+    border: 1px solid #ff006e;
+    cursor: pointer;
+    padding: 0.9em 2em;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    margin: 2em 0;
+}
+
+input[type="button"]:hover {
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+    transition: .5s all;
+    background: #f44c95;
+}
+
+
+
+
+.prediction-result{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: #1e1d1e;
+    margin-bottom: 50px;
+    padding: 10px 0px 60px 0px;
+}
+
+.prediction{
+    font-size: 18px;
+    color: #ffea00;
+    width: 77%;
+    padding: 5px 0px;
+    margin: 10px 0px 100px 0px;
+    line-height: 28px;
+}
+
+.prediction-result h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    width: 77%;
+    margin: 30px 0px 60px 0px;
+    color: #f81075;
+}

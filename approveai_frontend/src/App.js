@@ -1,9 +1,10 @@
 import React from 'react';
+import ApprovedAI from './Components/ApprovedAI.jsx'
 
 function App() {
   return (
     <>
-      <h1>Jay Shri Ram</h1>
+      <ApprovedAI></ApprovedAI>
     </>
   );
 }

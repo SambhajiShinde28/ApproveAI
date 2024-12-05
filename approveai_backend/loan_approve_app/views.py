@@ -39,7 +39,6 @@ def LoanPrediction(req):
         creditHistory=data['CreditHistory']
         propertyArea=data['PropertyArea']
 
-        # print(f"Model PRediction : {fullName} {address} {gender} {married} {dependents} {education} {selfEmployed} {applicantIncome} {coapplicantIncome} {loanAmount} {loanAmountTerm} {creditHistory} {propertyArea}")
 
         if fullName != "" and address != "" and gender != "" and married != "" and dependents != "" and education != "" and selfEmployed != "" and applicantIncome != "" and coapplicantIncome != "" and loanAmount != "" and loanAmountTerm != "" and creditHistory != "" and propertyArea != "":
             
@@ -74,18 +73,13 @@ def LoanPrediction(req):
             manual_prediction = svm_model.predict(manual_df)
             manual_prediction_proba = svm_model.predict_proba(manual_df)
 
-            # Output the result
-            status = 'Approved' if manual_prediction[0] == 1 else 'Rejected'
-            print(f"Loan Status: {status}")
-            print(f"Prediction Probability: {manual_prediction_proba}")
-
             rejected_Percentage=round(manual_prediction_proba[0][0]*100,2)
             Approved_Percentage=round(manual_prediction_proba[0][1]*100,2)
 
             data_saving=LoanPredictionModel(FullName=fullName, Address=address, Gender=gender, Married=married, Dependence=dependents, Education=education, SelfEmployee=selfEmployed, ApplicantIncome=int(applicantIncome), CoapplicantIncome=int(coapplicantIncome), LoanAmount=int(loanAmount), LoanAmountTerm=int(loanAmountTerm), CreditHistory=int(creditHistory), PropertyArea=propertyArea, RejectedPercentage=rejected_Percentage, ApprovedPercentage=Approved_Percentage, ModelPrediction=manual_prediction[0], LoanStatus=status, )
             data_saving.save()
 
-            return JsonResponse({"Status":status,"Rejected_Percentage":rejected_Percentage,"Approved_Percentage":Approved_Percentage})
+            return JsonResponse({"message":"ok","Status":status,"Rejected_Percentage":rejected_Percentage,"Approved_Percentage":Approved_Percentage})
 
         else:
             return JsonResponse({"message":"fields empty"})
