@@ -1,4 +1,4 @@
-# ApproveAI - Loan Prediction App 💳💰  
+# ApproveAI - Loan Prediction Web App 💳💰  
 
 The Loan Prediction App is a full-stack web application that predicts loan eligibility using a Support Vector Machine (SVM) model. It analyzes user inputs like income, credit history, and dependents to provide real-time, accurate predictions. Built with React.js for a dynamic frontend and Django for a robust backend, the app securely stores user data and results in a MySQL database. It features an interactive bar chart for visualizing prediction probabilities, offering users clear insights. With a modern tech stack and scalable design, the app is ideal for streamlining loan approvals and is ready for deployment with options for future enhancements.
 
@@ -32,10 +32,37 @@ The Loan Prediction App is a full-stack web application that predicts loan eligi
 ## 📊 Screenshots and Demo Video
  ### **Screenshots**
 
+ <p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1OsSXvVPgOyoze7DjBwTVrYRstNyEow6e" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1f0j5b_PGQU6NGO0xhC1iqsMCamNlW_J9" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=19ctSdyR5BfHi1PGPXlUf_NjWhOfqirIb" alt="img" width="310" style="margin: 5px;">
+</p>
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1Zvgm_G0sCL7HRFOeY4mmRA0SW_g_RZ7z" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1QOS0WZk0U1qLLa_Tnbp5hMVB78hG707q" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1aczPDJcTECK7LBiC6omF8Feiw74uV79h" alt="img" width="310" style="margin: 5px;">
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1ArvTiFPyYUHOELXvadZ89GKx6ngFrY1X" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1vKJa5iJfe7Tv5EYOxFzYg5sziVWrQCZg" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1yDCbwUqs9GkW8cYvPNYleKELplRoVCqu" alt="img" width="310" style="margin: 5px;">
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1D-3tTB8U6aaV9yetwAJp9EEIR5u8ZKAP" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1HJ3IuK3UbVHna8pZmhQ8NaA5rHA01DgN" alt="img" width="310" style="margin: 5px;">
+  <img src="https://drive.google.com/uc?export=view&id=1NdgKAKypjXqjWNCfmwRL2xZL3jbCYj3-" alt="img" width="310" style="margin: 5px;">
+</p>
+
  ### **Video**
 **Project Video**
 
 Click the image below to watch the project video
+
+[![Watch the video](https://drive.google.com/uc?export=view&id=1OsSXvVPgOyoze7DjBwTVrYRstNyEow6e)](https://drive.google.com/file/d/1DpSO7NAinG6VnZh8bA4P7WXUDNy5UxdC/view?usp=drive_link)
+
+
 
 ---
 
@@ -120,4 +147,3 @@ Follow these steps to set up and run the application locally:
 
 - [LinkedIn](https://www.linkedin.com/in/sambhaji-shinde-1679ab309/)
 - [Instagram](https://www.instagram.com/sambhaji_26/)
-
