@@ -11,3 +11,34 @@
     font-weight: bold;
     color: #ff007b;
 }
+
+
+
+
+/* media query */
+
+@media (max-width:1000px) {
+
+    .header-container h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .header-container{
+        padding: 80px 50px;
+    }
+    
+    .header-container h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .header-container{
+        padding: 80px 30px;
+    }
+
+}

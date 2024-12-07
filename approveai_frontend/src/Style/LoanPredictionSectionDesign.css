@@ -137,7 +137,7 @@ input[type="button"]:hover {
 
 
 .prediction-result{
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -165,4 +165,89 @@ input[type="button"]:hover {
     width: 77%;
     margin: 30px 0px 60px 0px;
     color: #f81075;
+}
+
+
+
+
+
+
+
+/* Media Query use */
+
+@media (max-width:1300px) {
+    
+    .loanprediction-section{
+        width: 60%;
+    }
+
+    .prediction-result{
+        width: 60%;
+    }    
+}
+
+@media (max-width:1000px) {
+    
+    .loanprediction-section{
+        width: 75%;
+    }
+
+    .prediction-result{
+        width: 75%;
+    }    
+}
+
+@media (max-width:800px) {
+    
+    .loanprediction-section{
+        width: 90%;
+    }
+
+    .loanprediction-section h1{
+        font-size: 24px;
+    }
+
+    .prediction-result{
+        width: 90%;
+    }    
+
+    .prediction{
+        font-size: 16px;
+    }
+
+    .prediction-result h2{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .loanprediction-section{
+        padding: 30px 5px;
+    }
+    
+    .loanprediction-section h1{
+        padding: 30px 0px;
+    }
+
+    .agileits-top {
+        padding: 2em;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .selectField{
+        width: 100%;
+    }
+
+    .prediction{
+        font-size: 16px;
+        margin: 0px 0px 80px 0px;
+    }
+    
+    .prediction-result h2{
+        margin: 30px 0px 40px 0px;
+    }
 }
