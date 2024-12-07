@@ -73,6 +73,9 @@ def LoanPrediction(req):
             manual_prediction = svm_model.predict(manual_df)
             manual_prediction_proba = svm_model.predict_proba(manual_df)
 
+            status='Approved' if manual_prediction[0] == 1 else 'Rejected'
+            print("Prediction : ",manual_prediction[0])
+            print("Status : ",status)
             rejected_Percentage=round(manual_prediction_proba[0][0]*100,2)
             Approved_Percentage=round(manual_prediction_proba[0][1]*100,2)
 
